@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67OorahScraping.Web", "67OorahScraping.Web\67OorahScraping.Web.csproj", "{15907988-50D6-446B-A402-7ECE2CD08075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67OorahScraping.Scraping", "67OorahScraping.Scraping\67OorahScraping.Scraping.csproj", "{5CD4FC6D-ACCE-4631-A333-92899B825DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15907988-50D6-446B-A402-7ECE2CD08075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15907988-50D6-446B-A402-7ECE2CD08075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15907988-50D6-446B-A402-7ECE2CD08075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15907988-50D6-446B-A402-7ECE2CD08075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD4FC6D-ACCE-4631-A333-92899B825DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD4FC6D-ACCE-4631-A333-92899B825DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD4FC6D-ACCE-4631-A333-92899B825DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD4FC6D-ACCE-4631-A333-92899B825DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02D194C5-3059-4971-B60A-650F7850E431}
+	EndGlobalSection
+EndGlobal
