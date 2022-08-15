@@ -41,6 +41,7 @@ const Home = () => {
                     <br />
                     <br />
                     <br />
+                    <br/>
                     <p className='text-center'> Fooled? It was already won by {winner}! </p>
                 </div>
             }
