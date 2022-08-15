@@ -19,7 +19,7 @@ namespace _67OorahScraping.Web.Controllers
             return OorahScraper.Scrape();
         }
         [HttpGet]
-        [Route("getmyprize.br=lajSk!u,irm=jadfbmnadsakllll..7")]
+        [Route("getmyprize.br=lajSk!u,irm=jadfbmnadsakllll..7")] //just for fun
         public Prize GetRandomPrize()
         {
             return OorahScraper.GetRandomPrize(Scrape());

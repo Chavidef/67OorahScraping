@@ -54,7 +54,7 @@ namespace _67OorahScraping.Scraping
                     prize.ImageUrl = url;
                 }
 
-                var titleSpan = div.QuerySelector(".portfolio-caption");
+                var titleSpan = div.QuerySelector(".portfolio-caption").FirstElementChild;
                 if (titleSpan == null)
                 {
                     continue;
@@ -62,6 +62,16 @@ namespace _67OorahScraping.Scraping
                 if (titleSpan != null)
                 {
                     prize.Title = titleSpan.TextContent;
+                }
+
+                var winnerSpan = div.QuerySelector(".portfolio-caption").LastElementChild;
+                if (winnerSpan == null)
+                {
+                    continue;
+                }
+                if (winnerSpan != null)
+                {
+                    prize.Winner = winnerSpan.TextContent;
                 }
 
                 prizes.Add(prize);
